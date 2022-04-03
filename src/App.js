@@ -1,11 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useEffect, useRef } from "react";
+
+import ScrollArt from "./Components/ScrollArt";
+import Post from "./Pages/Post";
+// import p5 from "p5";
+
+// function sketch(p) {
+//   p.setup = function () {
+//     p.createCanvas(400, 400);
+//     p.background(0);
+//     p.circle(200, 200, 400);
+//   };
+
+//   p.draw = function () {
+
+//   };
+// }
 
 function App() {
+  // const p5ContainerRef = useRef();
+
+  // useEffect(() => {
+  //   // On component creation, instantiate a p5 object with the sketch and container reference
+  //   const p5Instance = new p5(sketch, p5ContainerRef.current);
+
+  //   // On component destruction, delete the p5 instance
+  //   return () => {
+  //     p5Instance.remove();
+  //   };
+  // }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Post />
+      {/* <ScrollArt />
+      <ScrollArt /> */}
+      {/* <ScrollArt /> */}
+      {/* <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +48,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
