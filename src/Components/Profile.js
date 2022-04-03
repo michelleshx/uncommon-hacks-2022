@@ -11,7 +11,8 @@ const Profile = () => {
   return (
     isAuthenticated && (
       <div>
-        <p>{user.email}</p>
+        <p>michelle</p>
+        {/* <p>{user.email}</p> */}
       </div>
     )
   );

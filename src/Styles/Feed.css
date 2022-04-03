@@ -1,2 +1,13 @@
 .Feed {
+  /* width: 90%;
+  margin: auto; */
+}
+.post {
+  //margin-bottom: 56px;
+}
+.test {
+  height: 800px;
+  background-color: red;
+  padding: 32px;
+  margin: 32px;
 }

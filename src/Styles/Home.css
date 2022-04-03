@@ -1,12 +1,23 @@
 .Home {
-  padding: 56px;
+  padding: 48px;
   height: vh;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
 
 .nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.profile {
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 56px;
   justify-content: end;
 }
