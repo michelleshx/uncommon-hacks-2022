@@ -13,6 +13,10 @@ function Landing() {
       </div>
       <div className="box">
         <LoginButton />
+        <p className="warning">
+          ***Warning: this project uses flashing colours and may not be suitable
+          for people with photosensitive epilepsy. Viewer discretion is advised
+        </p>
       </div>
     </div>
   );
