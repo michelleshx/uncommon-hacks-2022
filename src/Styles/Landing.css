@@ -1,0 +1,13 @@
+.Landing {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  margin: auto;
+  margin-top: 50%;
+}
+
+.subtitle {
+  margin-top: 24px;
+}

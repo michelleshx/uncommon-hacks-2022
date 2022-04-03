@@ -1,0 +1,17 @@
+button {
+  /* background-color: #9e00ff; */
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
