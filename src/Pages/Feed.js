@@ -1,15 +1,17 @@
 import { useEffect, useRef } from "react";
 import ScrollArt from "../Components/ScrollArt";
 import Like from "../Components/Likes";
+import LogoutButton from "../Components/LogoutButton";
 
-function Post() {
+function Feed() {
   return (
-    <div className="Post">
+    <div className="Feed">
       {/* <ScrollArt /> */}
       <Like />
       {/* <ScrollArt /> */}
+      <LogoutButton />
     </div>
   );
 }
 
-export default Post;
+export default Feed;
