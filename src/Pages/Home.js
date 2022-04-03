@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="Home">
       <div className="nav">
-        <img src={logo} />
+        <img className="home-logo" src={logo} />
         <div className="profile">
           <Profile />
           <LogoutButton />

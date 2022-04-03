@@ -3,7 +3,7 @@ import ScrollArt from "./ScrollArt";
 
 function Feed() {
   const renderFeed = () => {
-    return [...Array(5)].map((i) => (
+    return [...Array(20)].map((i) => (
       <div className="post">
         <ScrollArt key={i} />{" "}
       </div>

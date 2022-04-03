@@ -1,9 +1,11 @@
 .Home {
   padding: 48px;
   height: vh;
+  width: 400px;
+  margin: auto;
 }
 
-img {
+.home-logo {
   height: 100px;
   width: 100px;
 }

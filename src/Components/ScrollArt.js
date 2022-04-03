@@ -8,7 +8,7 @@ function sketch1(p) {
   let g = 255;
 
   p.setup = function () {
-    p.createCanvas(this.windowWidth - 112, 800);
+    p.createCanvas(400, 800);
     p.frameRate(20);
     p.y = p.height;
     p.size = 35;

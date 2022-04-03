@@ -1,6 +1,7 @@
 .Landing {
   display: flex;
   flex-direction: column;
+  width: 400;
 }
 
 .box {
